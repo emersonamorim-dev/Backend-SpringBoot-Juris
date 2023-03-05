@@ -9,7 +9,9 @@ Implementação da classe DbSeeder é responsável por preencher os bancos de da
 - RabbitMQ
 - Docker
 
-Pré-requisitos Docker Docker Compose
+Pré-requisitos 
+- Docker 
+- Docker Compose
 
 Execute o seguinte comando para criar as imagens Docker da aplicação e do banco de dados: docker-compose build
 
