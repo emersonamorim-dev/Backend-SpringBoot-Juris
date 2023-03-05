@@ -1,0 +1,43 @@
+{
+    "queues": [
+      {
+        "name": "queue1",
+        "durable": true,
+        "exclusive": false,
+        "autoDelete": false
+      },
+      {
+        "name": "queue2",
+        "durable": true,
+        "exclusive": false,
+        "autoDelete": false
+      }
+    ],
+    "exchanges": [
+      {
+        "name": "exchange1",
+        "type": "direct",
+        "durable": true,
+        "autoDelete": false
+      },
+      {
+        "name": "exchange2",
+        "type": "topic",
+        "durable": true,
+        "autoDelete": false
+      }
+    ],
+    "bindings": [
+      {
+        "queue": "queue1",
+        "exchange": "exchange1",
+        "routingKey": "key1"
+      },
+      {
+        "queue": "queue2",
+        "exchange": "exchange2",
+        "routingKey": "key2"
+      }
+    ]
+  }
+  
