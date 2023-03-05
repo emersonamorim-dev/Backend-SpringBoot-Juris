@@ -20,12 +20,11 @@ Execute o seguinte comando para iniciar os contêineres: docker-compose up
 Agora a aplicação está executando e pode ser acessada no endereço http://localhost:8080.
 
 Endpoints
-| /contratos: | endpoints para gerenciar contratos |
-
-/peticoes: endpoints para gerenciar petições
-/processos: endpoints para gerenciar processos
-/prazos: endpoints para gerenciar prazos
-/escritorios: endpoints para gerenciar escritórios
+- /contratos:  endpoints para gerenciar contratos 
+- /peticoes: endpoints para gerenciar petições
+- /processos: endpoints para gerenciar processos
+- /prazos: endpoints para gerenciar prazos
+- /escritorios: endpoints para gerenciar escritórios
 
 Exemplo de Uso Contratos
 
