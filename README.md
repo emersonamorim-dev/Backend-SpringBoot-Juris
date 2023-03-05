@@ -54,7 +54,7 @@ http://localhost:8080/peticoes
 
 - GET http://localhost:8080/peticoes/1
 
-Atualizar uma petição:
+- Atualizar uma petição:
 
 - PUT 
 - http://localhost:8080/peticoes/1 
