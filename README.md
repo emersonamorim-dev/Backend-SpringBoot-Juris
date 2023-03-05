@@ -52,7 +52,7 @@ http://localhost:8080/peticoes
 
 - Buscar uma petição por ID:
 
-GET http://localhost:8080/peticoes/1
+- GET http://localhost:8080/peticoes/1
 
 Atualizar uma petição:
 
