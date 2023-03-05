@@ -46,7 +46,7 @@ http://localhost:8080/contratos/1
 - DELETE
 http://localhost:8080/contratos/1 Petições Criar uma petição:
 
--POST
+- POST
 http://localhost:8080/peticoes 
 - { "descricao": "Petição Inicial", "dataCriacao": "2022-01-01", "dataVencimento": "2022-02-01", "processoId": 1 }
 
