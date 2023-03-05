@@ -30,34 +30,35 @@ Exemplo de Uso Contratos
 
 Criar um contrato:
 
-POST
+- POST
 http://localhost:8080/contratos 
-{ "descricao": "Contrato de Prestação de Serviços", "dataInicio": "2022-01-01", "dataFim": "2023-01-01", "valor": 5000.00, "escritorioId": 1 } Buscar um contrato por ID:
+- { "descricao": "Contrato de Prestação de Serviços", "dataInicio": "2022-01-01", "dataFim": "2023-01-01", "valor": 5000.00, "escritorioId": 1 } Buscar um contrato por ID:
 
-GET
+- GET
 http://localhost:8080/contratos/1
 
-Atualizar um contrato:
+- Atualizar um contrato:
 
-PUT
-http://localhost:8080/contratos/1 
-{ "descricao": "Contrato de Prestação de Serviços", "dataInicio": "2022-01-01", "dataFim": "2024-01-01", "valor": 6000.00, "escritorioId": 1 } Excluir um contrato:
+- PUT
+ http://localhost:8080/contratos/1 
+- { "descricao": "Contrato de Prestação de Serviços", "dataInicio": "2022-01-01", "dataFim": "2024-01-01", "valor": 6000.00, "escritorioId": 1 } Excluir um contrato:
 
-DELETE
+- DELETE
 http://localhost:8080/contratos/1 Petições Criar uma petição:
 
-POST
+-POST
 http://localhost:8080/peticoes 
-{ "descricao": "Petição Inicial", "dataCriacao": "2022-01-01", "dataVencimento": "2022-02-01", "processoId": 1 }
+- { "descricao": "Petição Inicial", "dataCriacao": "2022-01-01", "dataVencimento": "2022-02-01", "processoId": 1 }
 
-Buscar uma petição por ID:
+- Buscar uma petição por ID:
 
 GET http://localhost:8080/peticoes/1
 
 Atualizar uma petição:
 
-PUT http://localhost:8080/peticoes/1 
-{ "descricao": "Petição Inicial", "dataCriacao": "2022-01-01", "dataVencimento": "2022-03-01", "processoId": 1 }
+- PUT 
+- http://localhost:8080/peticoes/1 
+- { "descricao": "Petição Inicial", "dataCriacao": "2022-01-01", "dataVencimento": "2022-03-01", "processoId": 1 }
 
-Excluir uma petição:
+- Excluir uma petição:
 DELETE http://localhost:8080/peticoes/1
