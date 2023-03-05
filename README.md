@@ -4,10 +4,10 @@ Codificação em Java com SpringBoot de uma aplicação de gerenciamento jurídi
 Implementação da classe DbSeeder é responsável por preencher os bancos de dados com dados de exemplo. Ela utiliza repositórios do Spring Data para salvar os dados no banco de dados. Alguns dados de exemplo incluem usuários, clientes, contratos, escritórios, prazos, petições e processos.
 
 # Tecnologias Utilizadas
-Spring Boot
-PostgreSQL
-RabbitMQ
-Docker
+- Spring Boot
+- PostgreSQL
+- RabbitMQ
+- Docker
 
 Pré-requisitos Docker Docker Compose
 
